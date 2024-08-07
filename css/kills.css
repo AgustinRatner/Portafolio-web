@@ -1,0 +1,105 @@
+#kills{
+    flex-direction: column;
+}
+#container_description_kills{
+    flex-direction: column;
+    align-items: start;
+    font-size: 3.125vh;
+    font-weight: 400;
+}
+.title{
+    font-size: 7.81vh;
+    font-weight: bold;
+    margin-top: 5.34vw;
+}
+#kills .title{
+    color: #A5D767;
+}
+.description{
+    margin: 0 8.34vw 0 8.34vw;
+}
+#kills .description{
+    color: #A5D767;
+}
+#kills_list{
+    margin: 1vw 8.34vw 0 8.34vw;
+    padding: 0 1vw 0 1vw;
+    color: #A5D767;
+}
+#kills_technologies{
+    margin: 1vw 8.34vw 0 8.34vw;
+    align-items: center;
+    /*border: 2px solid black;*/
+    width: 83.32vw;
+}
+#kills_technologies div{
+    background-color: none;
+    height: 5.85vw;
+    justify-content: space-around;
+}
+#technologies_left{
+    border-right: 4px solid #A5D767;
+    width: 40%;
+}
+#technologies_center{
+    border-right: 4px solid #A5D767;
+    width: 20%;
+}
+#technologies_right{
+    width: 40%;
+}
+#kills_technologies button{
+    background-repeat: no-repeat;
+    width: 5.85vw;
+    height: 5.85vw;
+    background-color: #4529EF;
+    border: none;
+}
+#tech1{
+    background-image: url(../img/icons8-javascript-logo-80.png); 
+}
+#tech2{
+    background-image: url(../img/icons8-html-80.png);
+}
+#tech3{
+    background-image: url(../img/icons8-css-80.png);
+}
+#tech4{
+    background-image: url(../img/icons8-bootstrap-80.png);
+}
+#tech5{
+    background-image: url(../img/icons8-jquery-80.png);
+}
+#tech6{
+    background-image: url(../img/knime_icon_132274.png);
+}
+#tech7{
+    background-image: url(../img/icons8-git-80.png);
+}
+#tech8{
+    background-image: url(../img/icons8-python-80.png);
+}
+#tech9{
+    background-image: url(../img/icons8-java-80.png);
+}
+#tech10{
+    background-image: url(../img/icons8-express-js-80.png);
+}
+#tech11{
+    background-image: url(../img/icons8-postgresql-80.png);
+}
+#tech12{
+    background-image: url(../img/icons8-mi-sql-80.png);
+}
+#technologies_roles{
+    margin: 0 8.34vw 0 8.34vw;
+    width: 83.32vw;
+}
+#technologies_roles p{
+    font-size: 3.125vh;
+    font-weight: 400;
+    color: #A5D767;
+    font-weight: bold;
+    width: 27.77vw;
+    text-align: center;
+}

@@ -1,0 +1,74 @@
+#about-me_left{
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    margin-left: 8.34vw;
+}
+#about-me_right{
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    margin-right: 8.34vw;
+}
+#quien_soy_title{
+    font-size: 7.81vh;
+    font-weight: bold;
+    margin-top: 27vh;
+    color: #4529ef;
+    opacity: 0.8;
+}
+#quien_soy_description{
+    font-size: 3.125vh;
+    font-weight: 500;
+    width: 35vw;
+    color: #4529ef;
+    opacity: 0.8;
+}
+#animation-left{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.circle{
+    width: 1.09vw;
+    height: 1.09vw;
+    margin-left: 1vw;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#first-circle{
+    margin-left: 0;
+}
+.box-half{
+    width: 1.09vw;
+    height: 1.09vw;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+#first-box{
+    margin-left: 10vw;
+}
+#second-box{
+    margin-bottom: 2.18vw;
+}
+#third-box{
+    margin-bottom: 4.36vw;
+}
+#animation-right{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+#situacion_actual_title{
+    font-size: 7.81vh;
+    font-weight: bold;
+    color: #4529ef;
+    opacity: 0.8;
+}
+#situacion_actual_description{
+    font-size: 3.125vh;
+    font-weight: 500;
+    width: 35vw;
+    color: #4529ef;
+    opacity: 0.8;
+}

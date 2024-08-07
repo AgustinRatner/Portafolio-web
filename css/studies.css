@@ -1,0 +1,21 @@
+#studies{
+    color: #A5D767;
+    flex-direction: column;
+}
+.studies_list{
+    margin: 0 15.34vw 5.34vw 15.34vw;
+    width: 69.32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    font-size: 3.125vh;
+    font-weight: 400;
+}
+.studies_list a{
+    text-decoration: none;
+    color: #A5D767;
+}
+.studies_list a:hover{
+    color: black;
+}

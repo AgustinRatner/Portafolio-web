@@ -1,0 +1,121 @@
+#contact{
+    flex-direction: column;
+}
+#title_contact{
+    color: #4529ef;
+    font-size: 2.93vw;
+    font-weight: bold;
+    margin-top: 5.34vw;
+    margin-bottom: 0;
+}
+#subtitle_contact{
+    color: #333;
+    font-size: 2.05vw;
+    font-weight: 500;
+    text-align: center;
+}
+#div_contact_content{
+    margin: 0 17.71vw 0 17.71vw;
+    width: 64.58vw;
+    /*border: 2px solid black;*/
+    height: 100vh;
+    flex-direction: column;
+}
+#div_contact_content label{
+    font-size: 1.17vw;
+    font-weight: 200;
+    margin-bottom: 0.5vw;
+    color: #333;
+}
+#div_name_email{
+    color: #333;
+}
+#div_message{
+    flex-direction: column;
+    color: #333;
+    margin-top: 2vw;
+}
+#div_name_field{
+    flex-direction: column;
+    width: 30.08vw;
+    margin-right: 4.4vw;
+}
+#div_email_field{
+    flex-direction: column;
+    width: 30.08vw;
+}
+input{
+    font-size: 1.46vw;
+    font-weight: 300;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #BBB;
+}
+textarea{
+    font-size: 1.46vw;
+    font-weight: 300;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #BBB;
+    overflow: hidden;
+}
+#btn_send{
+    text-align: center;
+    font-size: 1.46vw;
+    font-weight: 300;
+    border: 3px solid #4529ef;
+    background: none;
+    color: #4529ef;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 23.57vw;
+}
+#btn_send:hover{
+    background-color: #4529ef;
+    color: white;
+}
+#div_submit{
+    justify-content: center;
+    margin: 2.5vw 0 4vw 0;
+}
+#navegation_page{
+    border-bottom: 2px solid #4529ef;
+    justify-content: space-around;
+    font-size: 1.757vw;
+    font-weight: 500;
+    padding-bottom: 0.5vw;
+}
+#navegation_page p{
+    color: #4529ef;
+    opacity: 0.7;
+    margin: 0;
+}
+#navegation_page p:hover{
+    opacity: 1;
+    font-weight: bold;
+    
+}
+#social{
+    justify-content: space-between;
+    color: black;
+    font-size: 1.757vw;
+    font-weight: 500;
+    padding-top: 0.5vw;
+}
+#social a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+}
+#social a:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+#social p{
+    margin: 0;
+    padding: 0.2vw 0 0 2vw;
+}
+#social div{
+    width: 50%;
+    justify-content: space-around;
+}

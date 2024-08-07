@@ -1,0 +1,39 @@
+#works{
+    flex-direction: column;
+}
+#works > p{
+    color: #4529ef;
+    opacity: 0.8;
+}
+#works_ex{
+    width: 83.32vw;
+    margin: 0 8.34vw 0 8.34vw;
+    justify-content: space-around;
+}
+#works .description{
+    font-size: 3.125vh;
+    font-weight: 400;
+}
+#works_ex div{
+    width: 18.74vw;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.125vh;
+    font-weight: 400;
+    color: black;
+}
+#works_ex img{
+    width: 9.37vw;
+    height: 9.37vw;
+}
+#works_ex a{
+    text-decoration: none;
+    opacity: 0.7;
+}
+#works_ex a:hover{
+    opacity: 1;
+}
+.card_description{
+    padding: 1vw 1vw 0 1vw;
+    align-items: start;
+}
