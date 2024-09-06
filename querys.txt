@@ -1,0 +1,58 @@
+/*Eliminar tablas*/
+drop table Element;
+drop table Admin;
+
+/*Crear tablas*/
+create table Element(
+	id_element varchar(30) not null primary key,
+	classes varchar(255) not null,
+	inner_html text
+);
+create table Admin(
+	user_id text not null primary key,
+	pass text not null
+);
+
+-- Insertar registros
+INSERT INTO "Elements" (classes,id_element,inner_html) VALUES
+('section_title','home_title','Full Stack<br>Developer.'),
+('section_description','home_description','Hola lector, mi nombre es Agustin Ratner y apuesto por el desarrollo páginas web amigables, interactivas y accesibles para cualquier persona.<br><br>Mi propósito es hacer del mundo un lugar un poco más inclusivo.'),
+('section_title','quien_soy_title','¿Quien soy?'),
+('section_description','quien_soy_description','Me considero un apasionado del desarrollo de software, cuya principal motivación es hacer posible los sueños de los clientes y usuarios.<br><br>Actualmente tengo 24 años, y estoy en el inicio de una larga etapa de aprendizaje y evolución en el maravilloso mundo del desarrollo web.'),
+('section_title','situacion_actual_title','Situación actual'),
+('section_description','situacion_actual_description','Me encuentro en curso del último año de la carrera Lic. en Ciencias de la Computación, y además de forma autodidacta siempre estoy aprendiendo tecnologías orientadas al desarrollo web.<br><br>También he priorizado perfeccionar mi Inglés, lo considero muy importante.'),
+('section_title','kills_title','Habilidades'),
+('section_description','kills_description','Cuento con habilidades sólidas en los lenguajes JavaScript, HTML, CSS, en conjunto con tecnologías y frameworks como Express, JQuery, Bootstrap, GIT, MySQL y PostgresSQL.<br><br> Por otro lado, también he utilizado Python, Java, Haskell, Prolog en numerosas ocasiones, y en algunas otras, tecnologías como Vue,Angular, Spring para fines académicos.<br><br> Durante mi paso por la facultad, aprendí a utilizar el software KNIME, para resolver problematicas con IA, y también me desenvuelvo muy bien utilizando Linux.'),
+('section_item','idioma','<strong>Idiomas:</strong> Español (Lengua nativa) e Inglés(Nivel intermedio).'),
+('section_item','estudios_universitarios','<strong>Estudios universitarios:</strong> Licenciatura en Ciencias de la Computación (2018-2024).'),
+('section_item','tecnologias_dominio','<strong>Lenguajes y tecnologías de gran dominio:</strong>'),
+('section_title','works_title','Trabajos'),
+('section_description','works_description','Actualmente no tengo experiencia en el mercado laboral, únicamente cuento con la experiencia adquirida en los proyectos de la facultad, como también los proyectos que se presentaron como challenges en los cursos impartidos por "Oracle ONE Next Education".<br><br>Estos proyectos se encuentran en mi repositorio de github, y son los siguientes:<br><br>'),
+('section_description','description_project_1','<strong>Encriptado de texto:</strong> Encripta y desencripta una cadena que recibe como entrada.'),
+('section_description','description_project_2','<strong>Agenda de cursos:</strong> Una agenda que nos permite agregar y quitar eventos, dejando registro del evento y sufecha correspondiente.'),
+('section_description','description_project_3','<strong>Tabla con información de pacientes:</strong> Aplicación en la que se pueden agregar, buscar y eliminar pacientes en una tabla.'),
+('section_title','studies_title','Estudios'),
+('section_item','certificate_1','<strong>Técnico universitario en Programación (Título intermedio - Terciario) - 2023.</strong>'),
+('section_item','certificate_2','<strong><a href="https://app.aluracursos.com/program/certificate/3670f959-db18-431b-b9f7-9da8d6d1b940" target="_blank">ORACLE NEXT EDUCATION F2 T2.</strong></a>'),
+('section_item','certificate_3','<strong><a href="https://app.aluracursos.com/degree/certificate/eaee890f-109e-4449-aa95-a82716fc2ebf" target="_blank">PRINCIPIANTE EN PROGRAMACIÓN F2T2 - Oracle ONE.</strong></a>'),
+('section_item','certificate_4','<strong><a href="https://app.aluracursos.com/degree/certificate/e4617f82-7aeb-4678-a1cf-735a61ac8048" target="_blank">FRONT END F2G2 - Oracle ONE.</strong></a>'),
+('section_item','certificate_5','<strong><a href="https://app.aluracursos.com/degree/certificate/8b8c0613-a211-42d3-af6f-8b3d71448143" target="_blank">JAVA ORIENTADO A OBJETOS F2G2 - Oracle ONE.</strong></a>'),
+('section_item','certificate_6','<strong><a href="https://app.aluracursos.com/degree/certificate/b5cf92d3-a3e1-41e9-9b59-b47bc429ffc3" target="_blank">EMPRENDIMIENTO - Oracle ONE.</strong></a>'),
+('section_item','certificate_7','<strong><a href="https://app.aluracursos.com/degree/certificate/e0302e8c-aba2-461b-95e9-604f302261f1" target="_blank">SQL CON MYSQL - Oracle ONE.</strong></a>'),
+('section_item','certificate_8','<strong><a href="https://app.aluracursos.com/user/agustinratsk8/degree-oracle-mysql-one-15452/certificate" target="_blank">SQL CON MYSQL SERVER DE ORACLE - Oracle ONE.</a></strong>'),
+('section_item','certificate_9','<strong><a href="https://app.aluracursos.com/degree/certificate/a682c3b6-027e-438f-9139-dc1dd8a32082" target="_blank">PYTHON, DATA SCIENCE EN OCI Y ORACLE ANALYTICS - Oracle ONE.</a></strong>'),
+('section_item','certificate_10','<strong><a href="https://app.aluracursos.com/degree/certificate/c7c78928-fea3-464b-aa11-b13ae2d86405" target="_blank">ORACLE CLOUD INFRASTRUCTURE - Oracle ONE.</a></strong>'),
+('section_title','title_contact','¡Envíeme un mensaje!'),
+('section_subtitle','subtitle_contact','¿Tienes alguna pregunta o propuesta, o simplemente<br>quieres saludar? Adelante.'),
+('section_item','option_nav_1','Home'),
+('section_item','option_nav_2','About me'),
+('section_item','option_nav_3','Skills'),
+('section_item','option_nav_4','Works'),
+('section_item','option_nav_5','Studies'),
+('section_item','item_nav_1','Home'),
+('section_item','item_nav_2','About me'),
+('section_item','item_nav_3','Skills'),
+('section_item','item_nav_4','Works'),
+('section_item','item_nav_5','Studies'),
+('section_item','item_nav_6','Contact'),
+('section_item','item_nav_7','Quit');
