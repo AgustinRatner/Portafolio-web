@@ -7,4 +7,4 @@
 > * ### Como la base de datos ya esta creada, deberán crearla de 0. Por lo tanto tendran que configurar algunas cosas con "Sequelize". Las consultas a la base de datos estan especificadas en un archivo de texto plano llamado "querys".
 
 ## **Application video running**
-> * ### En esta carpeta, se encuentran capturas de pantalla de la aplicación en funcionamiento y sus diferentes secciones.
+> * ### En esta carpeta, se encuentra el video donde se ve la aplicación en funcionamiento y sus diferentes secciones.
